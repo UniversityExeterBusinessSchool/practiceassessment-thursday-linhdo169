@@ -190,7 +190,7 @@ import matplotlib.pyplot as plt
 
 # After revision of the code, the following errors were found and corrected.
 # Generate 100 random numbers between 1 and student id number
-max_value = int(input("740098305"))
+max_value = 740098305
 random_numbers = [random.randint(1, max_value) for i in range(100)]
 
 # Plotting the numbers in a line chart
@@ -209,7 +209,6 @@ plt.ylabel("Random Number")
 plt.legend()
 plt.grid(True)
 plt.show()
-
 
 # Debug the code and provide comments on the errors found.
 # Error 1: The variable name 'max-value' contains a syntax error. It should be 'max_value'.
